@@ -2,7 +2,7 @@
   <servers>
     <server>
       <id>github</id>
-      <username>BackstageSSPPoC</username>
+      <username>${env.GHCR_USERNAME}</username>
       <password>${env.GITHUB_TOKEN}</password>
     </server>
   </servers>
